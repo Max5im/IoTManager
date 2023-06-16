@@ -7,6 +7,14 @@ void* getAPI_Timer(String subtype, String params);
 void* getAPI_Variable(String subtype, String params);
 void* getAPI_VariableColor(String subtype, String params);
 void* getAPI_VButton(String subtype, String params);
+<<<<<<< HEAD
+=======
+void* getAPI_Acs712(String subtype, String params);
+void* getAPI_AhtXX(String subtype, String params);
+void* getAPI_AnalogAdc(String subtype, String params);
+void* getAPI_Bme280(String subtype, String params);
+void* getAPI_Bmp280(String subtype, String params);
+>>>>>>> 57a5bb6df2f5dff9d08dafc8353e913472bd4d58
 void* getAPI_Dht1122(String subtype, String params);
 void* getAPI_Ds18b20(String subtype, String params);
 void* getAPI_Impulse(String subtype, String params);
@@ -17,7 +25,15 @@ void* getAPI_ButtonOut(String subtype, String params);
 void* getAPI_Buzzer(String subtype, String params);
 void* getAPI_Encoder(String subtype, String params);
 void* getAPI_IoTServo(String subtype, String params);
+<<<<<<< HEAD
 void* getAPI_Pwm8266(String subtype, String params);
+=======
+void* getAPI_Mcp23017(String subtype, String params);
+void* getAPI_Mp3(String subtype, String params);
+void* getAPI_Multitouch(String subtype, String params);
+void* getAPI_Pcf8574(String subtype, String params);
+void* getAPI_Pwm32(String subtype, String params);
+>>>>>>> 57a5bb6df2f5dff9d08dafc8353e913472bd4d58
 void* getAPI_TelegramLT(String subtype, String params);
 void* getAPI_Thermostat(String subtype, String params);
 void* getAPI_Lcd2004(String subtype, String params);
@@ -31,6 +47,14 @@ if ((tmpAPI = getAPI_Timer(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Variable(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_VariableColor(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_VButton(subtype, params)) != nullptr) return tmpAPI;
+<<<<<<< HEAD
+=======
+if ((tmpAPI = getAPI_Acs712(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_AhtXX(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_AnalogAdc(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Bme280(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Bmp280(subtype, params)) != nullptr) return tmpAPI;
+>>>>>>> 57a5bb6df2f5dff9d08dafc8353e913472bd4d58
 if ((tmpAPI = getAPI_Dht1122(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Ds18b20(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Impulse(subtype, params)) != nullptr) return tmpAPI;
@@ -41,7 +65,15 @@ if ((tmpAPI = getAPI_ButtonOut(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Buzzer(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Encoder(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_IoTServo(subtype, params)) != nullptr) return tmpAPI;
+<<<<<<< HEAD
 if ((tmpAPI = getAPI_Pwm8266(subtype, params)) != nullptr) return tmpAPI;
+=======
+if ((tmpAPI = getAPI_Mcp23017(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Mp3(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Multitouch(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Pcf8574(subtype, params)) != nullptr) return tmpAPI;
+if ((tmpAPI = getAPI_Pwm32(subtype, params)) != nullptr) return tmpAPI;
+>>>>>>> 57a5bb6df2f5dff9d08dafc8353e913472bd4d58
 if ((tmpAPI = getAPI_TelegramLT(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Thermostat(subtype, params)) != nullptr) return tmpAPI;
 if ((tmpAPI = getAPI_Lcd2004(subtype, params)) != nullptr) return tmpAPI;

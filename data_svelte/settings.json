@@ -2,8 +2,13 @@
     "name": "IoTmanagerVer4",
     "apssid": "IoTmanager",
     "appass": "",
+<<<<<<< HEAD
     "routerssid": "Starbase1",
     "routerpass": "b309am154rus",
+=======
+    "routerssid": "iot",
+    "routerpass": "hostel3333",
+>>>>>>> 57a5bb6df2f5dff9d08dafc8353e913472bd4d58
     "timezone": 2,
     "ntp": "pool.ntp.org",
     "weblogin": "admin",
@@ -21,5 +26,6 @@
     "pinSDA": 0,
     "i2cFreq": 100000,
     "wg": "group1",
+    "udps": 1,
     "settings_": ""
 }
