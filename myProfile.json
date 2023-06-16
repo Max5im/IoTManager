@@ -3,17 +3,17 @@
         "name": "IoTmanagerVer4",
         "apssid": "IoTmanager",
         "appass": "",
-        "routerssid": "rise",
-        "routerpass": "hostel3333",
+        "routerssid": "Starbase1",
+        "routerpass": "b309am154rus",
         "timezone": 2,
         "ntp": "pool.ntp.org",
         "weblogin": "admin",
         "webpass": "admin",
-        "mqttServer": "",
-        "mqttPort": 8021,
-        "mqttPrefix": "/risenew",
-        "mqttUser": "rise",
-        "mqttPass": "3hostel3",
+        "mqttServer": "192.168.22.8",
+        "mqttPort": 1883,
+        "mqttPrefix": "iotmanager/risenew",
+        "mqttUser": "maksim",
+        "mqttPass": "12345",
         "serverip": "http://iotmanager.org",
         "log": 0,
         "mqttin": 0,
@@ -66,11 +66,11 @@
         "Сенсоры": [
             {
                 "path": "src/modules/sensors/A02Distance",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Acs712",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Ads1115",
@@ -78,11 +78,11 @@
             },
             {
                 "path": "src/modules/sensors/AhtXX",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/AnalogAdc",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/BH_1750",
@@ -94,11 +94,11 @@
             },
             {
                 "path": "src/modules/sensors/Bme280",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Bmp280",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Dht1122",
@@ -162,7 +162,7 @@
             },
             {
                 "path": "src/modules/sensors/Pzem004t",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/RCswitch",
@@ -174,7 +174,7 @@
             },
             {
                 "path": "src/modules/sensors/S8",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Sds011",
@@ -186,15 +186,15 @@
             },
             {
                 "path": "src/modules/sensors/Sht20",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Sht30",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/Sonar",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/sensors/UART",
@@ -236,15 +236,15 @@
             },
             {
                 "path": "src/modules/exec/Mcp23017",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/exec/Mp3",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/exec/Multitouch",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/exec/MySensors",
@@ -252,11 +252,11 @@
             },
             {
                 "path": "src/modules/exec/Pcf8574",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/exec/Pwm32",
-                "active": true
+                "active": false
             },
             {
                 "path": "src/modules/exec/Pwm8266",
@@ -280,7 +280,7 @@
             },
             {
                 "path": "src/modules/exec/Thermostat",
-                "active": false
+                "active": true
             }
         ],
         "Экраны": [
